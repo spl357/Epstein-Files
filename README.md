@@ -1,6 +1,6 @@
-#  <a name='EpsteinFilesJan312026'></a>Epstein Files Jan 31, 2026
+# <a id="epstein-files-jan-31-2026"></a>Epstein Files Jan 31, 2026
 
-##  <a name='DatasetStatusDashboard'></a>Dataset Status Dashboard
+## <a id="dataset-status-dashboard"></a>Dataset Status Dashboard
 
 Quick availability overview of all currently indexed datasets:
 
@@ -36,40 +36,38 @@ https://old.reddit.com/r/DataHoarder/comments/1qrk3qk/epstein_files_datasets_9_1
 
 ```text
 https://old.reddit.com/r/DataHoarder/comments/1qrk3qk/epstein_files_datasets_9_10_11_300_gb_lets_keep/
-```
+````
 
 ---
 
-##  <a name='TableofContents'></a>Table of Contents
+## <a id="table-of-contents"></a>Table of Contents
 
-* [Dataset Status Dashboard](#DatasetStatusDashboard)
-* [Table of Contents](#TableofContents)
-* [How to Use This Repo](#HowtoUseThisRepo)
-* [Download Options](#DownloadOptions)
-	* [Option 1 — Direct Download (DOJ)](#Option1DirectDownloadDOJ)
-	* [Option 2 — Torrent Magnet Links (Recommended)](#Option2TorrentMagnetLinksRecommended)
-* [How to Torrent the Magnet Links](#HowtoTorrenttheMagnetLinks)
-* [Hash Verification](#HashVerificationOptionalbutEncouraged)
-* [Notes on Data Set 9](#NotesonDataSet9)
-* [Datasets](#Datasets)
-	* [Quick Jumps](#QuickJumps)
-	* [Data Sets 1–8 (Internet Archive)](#DataSets18InternetArchive)
-	* [Data Set 1](#DataSet1)
-	* [Data Set 2](#DataSet2)
-	* [Data Set 3](#DataSet3)
-	* [Data Set 4](#DataSet4)
-	* [Data Set 5](#DataSet5)
-	* [Data Set 6](#DataSet6)
-	* [Data Set 7](#DataSet7)
-	* [Data Set 8](#DataSet8)
-	* [Data Set 9 (Incomplete)](#DataSet9)
-	* [Data Set 10](#DataSet10)
-	* [Data Set 11](#DataSet11)
-	* [Data Set 12](#DataSet12)
-* [Disclaimer](#Disclaimer)
+* [Dataset Status Dashboard](#dataset-status-dashboard)
+* [How to Use This Repo](#how-to-use-this-repo)
+* [Download Options](#download-options)
+* [How to Torrent the Magnet Links](#how-to-torrent-the-magnet-links)
+* [Hash Verification](#hash-verification)
+* [Notes on Data Set 9](#notes-on-data-set-9)
+* [Datasets](#datasets)
+  * [Quick Jumps](#quick-jumps)
+  * [Data Sets 1–8 (Internet Archive)](#data-sets-1-8-internet-archive)
+  * [Data Set 1](#data-set-1)
+  * [Data Set 2](#data-set-2)
+  * [Data Set 3](#data-set-3)
+  * [Data Set 4](#data-set-4)
+  * [Data Set 5](#data-set-5)
+  * [Data Set 6](#data-set-6)
+  * [Data Set 7](#data-set-7)
+  * [Data Set 8](#data-set-8)
+  * [Data Set 9 (Incomplete)](#data-set-9-incomplete)
+  * [Data Set 10](#data-set-10)
+  * [Data Set 11](#data-set-11)
+  * [Data Set 12](#data-set-12)
+* [Disclaimer](#disclaimer)
+
 ---
 
-##  <a name='HowtoUseThisRepo'></a>How to Use This Repo
+## <a id="how-to-use-this-repo"></a>How to Use This Repo
 
 This repository is an **index + mirror helper** for the Epstein Files datasets released by the U.S. Department of Justice.
 
@@ -89,11 +87,11 @@ The goal is to make these files easier to:
 
 ---
 
-##  <a name='DownloadOptions'></a>Download Options
+## <a id="download-options"></a>Download Options
 
 You can obtain datasets in three main ways:
 
-###  <a name='Option1DirectDownloadDOJ'></a>Option 1 — Direct Download (DOJ)
+### <a id="option-1-direct-download-doj"></a>Option 1 — Direct Download (DOJ)
 
 Each dataset includes an official DOJ `.zip` URL.
 
@@ -107,7 +105,7 @@ These links may be slow, rate-limited, or occasionally cut off (as seen with Dat
 
 ---
 
-###  <a name='Option2TorrentMagnetLinksRecommended'></a>Option 2 — Torrent Magnet Links (Recommended)
+### <a id="option-2-torrent-magnet-links-recommended"></a>Option 2 — Torrent Magnet Links (Recommended)
 
 Torrent magnets are the most reliable way to:
 
@@ -123,9 +121,9 @@ magnet:?xt=urn:btih:....
 
 ---
 
-##  <a name='HowtoTorrenttheMagnetLinks'></a>How to Torrent the Magnet Links
+## <a id="how-to-torrent-the-magnet-links"></a>How to Torrent the Magnet Links
 
-###  <a name='Step1:InstallaTorrentClient'></a>Step 1: Install a Torrent Client
+### <a id="step-1-install-a-torrent-client"></a>Step 1 — Install a Torrent Client
 
 You need a BitTorrent client that supports magnet links.
 
@@ -139,7 +137,7 @@ Recommended:
 
 ---
 
-###  <a name='Step2:CopytheMagnetLink'></a>Step 2: Copy the Magnet Link
+### <a id="step-2-copy-the-magnet-link"></a>Step 2 — Copy the Magnet Link
 
 In this repo, magnets are provided in copy-safe blocks:
 
@@ -151,7 +149,7 @@ Highlight the entire line and copy it.
 
 ---
 
-###  <a name='Step3:AddtheMagnettoYourClient'></a>Step 3: Add the Magnet to Your Client
+### <a id="step-3-add-the-magnet-to-your-client"></a>Step 3 — Add the Magnet to Your Client
 
 In qBittorrent:
 
@@ -169,7 +167,7 @@ In Transmission:
 
 ---
 
-###  <a name='Step4:LetItCompleteVerifySize'></a>Step 4: Let It Complete + Verify Size
+### <a id="step-4-let-it-complete-verify-size"></a>Step 4 — Let It Complete + Verify Size
 
 Some datasets are very large (10 - 80+ GB).
 
@@ -183,7 +181,7 @@ Example:
 
 ---
 
-###  <a name='Step5:PleaseSeedAfterDownloading'></a>Step 5: Please Seed After Downloading
+### <a id="step-5-please-seed-after-downloading"></a>Step 5 — Please Seed After Downloading
 
 Torrent preservation only works if people continue seeding.
 
@@ -195,7 +193,7 @@ After completion:
 
 ---
 
-##  <a name='HashVerificationOptionalbutEncouraged'></a>Hash Verification (Optional but Encouraged)
+## <a id="hash-verification"></a>Hash Verification
 
 Some datasets include SHA1 / SHA256 / MD5 hashes.
 
@@ -221,7 +219,7 @@ Compare output to the hash listed in this repo.
 
 ---
 
-##  <a name='NotesonDataSet9'></a>Notes on Data Set 9
+## <a id="notes-on-data-set-9"></a>Notes on Data Set 9
 
 ⚠ **Data Set 9 is currently incomplete.** ⚠
 
@@ -234,17 +232,17 @@ Torrent mirrors are still being updated as more complete copies appear.
 
 ---
 
-##  <a name='Datasets'></a>Datasets
+## <a id="datasets"></a>Datasets
 
-###  <a name='QuickJumps'></a>Quick Jumps
+### <a id="quick-jumps"></a>Quick Jumps
 
-* [Data Sets 1–8 (Internet Archive)](#DataSets18InternetArchive)
-* [1](#DataSet1) · [2](#DataSet2) · [3](#DataSet3) · [4](#DataSet4) · [5](#DataSet5) · [6](#DataSet6) 
-* [7](#DataSet7) · [8](#DataSet8) · [9](#DataSet9) · [10](#DataSet10) · [11](#DataSet11) · [12](#DataSet12)
+* [Data Sets 1–8 (Internet Archive)](#data-sets-1-8-internet-archive)
+* [1](#data-set-1) · [2](#data-set-2) · [3](#data-set-3) · [4](#data-set-4) · [5](#data-set-5) · [6](#data-set-6)
+* [7](#data-set-7) · [8](#data-set-8) · [9](#data-set-9-incomplete) · [10](#data-set-10) · [11](#data-set-11) · [12](#data-set-12)
 
 ---
 
-###  <a name='DataSets18InternetArchive'></a>Data Sets 1–8 (Internet Archive)
+### <a id="data-sets-1-8-internet-archive"></a>Data Sets 1–8 (Internet Archive)
 
 **Epstein Files Data Sets 1-8: [INTERNET ARCHIVE LINK](https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILES.pdf)**
 
@@ -254,7 +252,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet1'></a>Data Set 1
+### <a id="data-set-1"></a>Data Set 1
 
 **Data Set 1 (2.47 GB)**
 
@@ -272,7 +270,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet2'></a>Data Set 2
+### <a id="data-set-2"></a>Data Set 2
 
 **Data Set 2 (631.6 MB)**
 
@@ -290,7 +288,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet3'></a>Data Set 3
+### <a id="data-set-3"></a>Data Set 3
 
 **Data Set 3 (599.4 MB)**
 
@@ -308,7 +306,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet4'></a>Data Set 4
+### <a id="data-set-4"></a>Data Set 4
 
 **Data Set 4 (358.4 MB)**
 
@@ -326,7 +324,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet5'></a>Data Set 5
+### <a id="data-set-5"></a>Data Set 5
 
 **Data Set 5 (61.5 MB)**
 
@@ -344,7 +342,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet6'></a>Data Set 6
+### <a id="data-set-6"></a>Data Set 6
 
 **Data Set 6 (53.0 MB)**
 
@@ -362,7 +360,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet7'></a>Data Set 7
+### <a id="data-set-7"></a>Data Set 7
 
 **Data Set 7 (98.2 MB)**
 
@@ -380,7 +378,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet8'></a>Data Set 8
+### <a id="data-set-8"></a>Data Set 8
 
 **Data Set 8 (10.67 GB)**
 
@@ -398,7 +396,8 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ---
 
-###  <a name='DataSet9'></a>Data Set 9 (Incomplete)
+### <a id="data-set-9-incomplete"></a>Data Set 9 (Incomplete)
+
 
 Only contains **49 GB** of **180 GB**. Multiple reports of cutoff from DOJ server at offset **48995762176**.
 
@@ -426,7 +425,7 @@ Unverified version incomplete at **~101 GB**.
 
 ---
 
-###  <a name='DataSet10'></a>Data Set 10
+### <a id="data-set-10"></a>Data Set 10
 
 **Data Set 10 (82 GB)**
 
@@ -454,13 +453,13 @@ Unverified version incomplete at **~101 GB**.
   https://archive.org/download/data-set-10/DataSet%2010.zip
   ```
 
-**SHA256**: 7D6935B1C63FF2F6BCABDD024EBC2A770F90C43B0D57B646FA7CBD4C0ABCF846
+SHA256: 7D6935B1C63FF2F6BCABDD024EBC2A770F90C43B0D57B646FA7CBD4C0ABCF846
 
 MD5: B8A72424AE812FD21D225195812B2502
 
 ---
 
-###  <a name='DataSet11'></a>Data Set 11
+### <a id="data-set-11"></a>Data Set 11
 
 **Data Set 11 (27.5 GB)**
 
@@ -476,11 +475,11 @@ MD5: B8A72424AE812FD21D225195812B2502
   magnet:?xt=urn:btih:59975667f8bdd5baf9945b0e2db8a57d52d32957&xt=urn:btmh:12200ab9e7614c13695fe17c71baedec717b6294a34dfa243a614602b87ec06453ad&dn=DataSet%2011.zip&xl=27441913130&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.srv00.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.pmman.tech%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.alaskantf.com%3A443%2Fannounce&tr=https%3A%2F%2Fshahidrazi.online%3A443%2Fannounce&tr=http%3A%2F%2Fwww.torrentsnipe.info%3A2701%2Fannounce&tr=http%3A%2F%2Fwww.genesis-sp.org%3A2710%2Fannounce
   ```
 
-**SHA1**: 574950c0f86765e897268834ac6ef38b370cad2a
+SHA1: 574950c0f86765e897268834ac6ef38b370cad2a
 
 ---
 
-###  <a name='DataSet12'></a>Data Set 12
+### <a id="data-set-12"></a>Data Set 12
 
 **Data Set 12 (114.1 MB)**.
 
@@ -502,19 +501,15 @@ MD5: B8A72424AE812FD21D225195812B2502
   https://archive.org/details/data-set-12_202601
   ```
 
-**SHA1**: 20f804ab55687c957fd249cd0d417d5fe7438281
+SHA1: 20f804ab55687c957fd249cd0d417d5fe7438281
 
-**MD5**: b1206186332bb1af021e86d68468f9fe
+MD5: b1206186332bb1af021e86d68468f9fe
 
-**SHA256**: b5314b7efca98e25d8b35e4b7fac3ebb3ca2e6cfd0937aa2300ca8b71543bbe2
-
----
-
-This list will be edited as more data gets released. Currently awaiting **Data Set 9**.
+SHA256: b5314b7efca98e25d8b35e4b7fac3ebb3ca2e6cfd0937aa2300ca8b71543bbe2
 
 ---
 
-##  <a name='Disclaimer'></a>Disclaimer
+## <a id="disclaimer"></a>Disclaimer
 
 This repository does not create or alter any files — it only mirrors publicly available links and community preservation efforts.
 
