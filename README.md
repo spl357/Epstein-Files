@@ -457,7 +457,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 Only contains **49 GB** of **180 GB**. Multiple reports of cutoff from DOJ server at offset **48995762176**.
 
-* **[ORIGINAL JUSTICE DEPARTMENT LINK](https://www.justice.gov/epstein/files/DataSet%209.zip)**
+* **[ORIGINAL JUSTICE DEPARTMENT LINK (Deprecated, returns 404 as of 20260206@1000z)](https://www.justice.gov/epstein/files/DataSet%209.zip)**
 
   ```text
   https://www.justice.gov/epstein/files/DataSet%209.zip
@@ -486,7 +486,7 @@ Multiple users report malformed metadata causing torrent clients to stall or cra
 
 **Data Set 10 (82 GB)**
 
-* **[ORIGINAL JUSTICE DEPARTMENT LINK](https://www.justice.gov/epstein/files/DataSet%2010.zip)**
+* **[ORIGINAL JUSTICE DEPARTMENT LINK (Deprecated, returns 404 as of 20260206@1000z)](https://www.justice.gov/epstein/files/DataSet%2010.zip)**
 
   ```text
   https://www.justice.gov/epstein/files/DataSet%2010.zip
@@ -520,7 +520,7 @@ MD5: B8A72424AE812FD21D225195812B2502
 
 **Data Set 11 (27.5 GB)**
 
-* **[ORIGINAL JUSTICE DEPARTMENT LINK](https://www.justice.gov/epstein/files/DataSet%2011.zip)**
+* **[ORIGINAL JUSTICE DEPARTMENT LINK (Deprecated, returns 404 as of 20260206@1000z)](https://www.justice.gov/epstein/files/DataSet%2011.zip)**
 
   ```text
   https://www.justice.gov/epstein/files/DataSet%2011.zip
