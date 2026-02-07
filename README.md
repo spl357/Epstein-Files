@@ -48,7 +48,8 @@ https://old.reddit.com/r/DataHoarder/comments/1qrk3qk/epstein_files_datasets_9_1
 * [How to Torrent the Magnet Links](#how-to-torrent-the-magnet-links)
 * [Hash Verification](#hash-verification)
 * [Notes on Data Set 9](#notes-on-data-set-9)
-* [How to Compile a Mostly Complete Data Set 9](#ds9-reconstruction)
+  * [NATIVEs Placeholder Analysis & Recovery Status](#ds09-natives-placeholder-analysis)
+  * [How to Compile a Mostly Complete Data Set 9](#ds9-reconstruction)
 * [Datasets](#datasets)
   * [Quick Jumps](#quick-jumps)
   * [Structured Dataset Full](#structured-dataset-full)
@@ -241,6 +242,79 @@ Compare output to the hash listed in this repo.
 **Additional notes:**
 * Multiple users report DOJ download failures, HTTP 404s, paginator errors, and IP-based blocking when attempting to retrieve Data Set 9.
 * These issues appear to affect multiple regions and are not user-specific.
+
+---
+
+<a id="ds09-natives-placeholder-analysis"></a>
+### Data Set 9 — NATIVEs Placeholder Analysis & Recovery Status
+
+Ongoing investigation has identified that a significant portion of missing **NATIVEs** (media files) in **Data Set 9** appear in the DOJ release as **small placeholder files**, rather than full media assets.
+
+#### Placeholder Characteristics
+
+Two distinct placeholder sizes have been observed:
+
+* **4670 bytes**
+* **2433 bytes**
+
+This behavior was identified by comparing placeholder files in Data Set 9 against complete NATIVEs from **Data Set 10**, which contains verified original media files.
+
+#### Revised Estimates
+
+Based on this analysis, the estimated number of missing NATIVEs has been updated:
+
+* **Previous estimate:** ~135 files
+* **Revised estimate:** **~2542 files**
+
+In addition, **25 image files** remain missing and may overlap with native placeholder entries.
+
+#### Recovery Progress
+
+As of the latest update:
+
+* **1983 / 2542 NATIVEs** have been confirmed as **directly downloadable from the DOJ**
+* Remaining NATIVEs are still under active investigation
+
+#### Observed Native Extensions
+
+(Non-exhaustive; sourced from Data Set 10)
+
+```
+.3gp
+.amr
+.m4a
+.m4v
+.mov
+.mp3
+.mp4
+.opus
+.pluginpayloadattachment
+.wav
+```
+
+Additional extensions attempted during recovery efforts include:
+
+```
+.avi .wmv .ts .vob .csv .xlsx .xls .docx .doc
+```
+
+#### Reference Documents
+
+The following files are provided for transparency and community verification:
+
+* **Missing NATIVEs list:**
+  [`/notes/DS09/NEW_MISSING_EFTA_NATIVES.txt`](notes/DS09/NEW_MISSING_EFTA_NATIVES.txt)
+
+* **Missing images list:**
+  [`/notes/DS09/MISSING_EFTA_IMAGES.txt`](notes/DS09/MISSING_EFTA_IMAGES.txt)
+
+* **Confirmed downloadable NATIVEs (1983 URLs):**
+  [`/notes/DS09/1983_NATIVES_URLS.txt`](notes/DS09/1983_NATIVES_URLS.txt)
+
+#### Status
+
+Efforts are ongoing to enumerate, test, and recover remaining NATIVEs from the DOJ source.
+Updates will be reflected in these reference files and the associated GitHub issue as progress continues.
 
 ---
 
