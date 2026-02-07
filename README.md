@@ -249,8 +249,6 @@ Compare output to the hash listed in this repo.
 <a id="ds09-natives-placeholder-analysis"></a>
 ### Data Set 9 — NATIVEs Placeholder Analysis & Recovery Status
 
-Ongoing investigation has identified that a significant portion of missing **NATIVEs** (media files) in **Data Set 9** appear in the DOJ release as **small placeholder files**, rather than full media assets.
-
 #### Placeholder Characteristics
 
 Two distinct placeholder sizes have been observed:
@@ -258,7 +256,7 @@ Two distinct placeholder sizes have been observed:
 * **4670 bytes**
 * **2433 bytes**
 
-This behavior was identified by comparing placeholder files in Data Set 9 against complete NATIVEs from **Data Set 10**, which contains verified original media files.
+This behavior was identified by comparing placeholder files in **Data Set 10** to their NATIVEs.
 
 #### Revised Estimates
 
@@ -635,16 +633,18 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 ### <a id="data-set-9-incomplete"></a>Data Set 9 (Incomplete)
 
-
 * **[ORIGINAL JUSTICE DEPARTMENT LINK (Deprecated, returns 404 as of 20260206@1000z)](https://www.justice.gov/epstein/files/DataSet%209.zip)**
 
   ```text
   https://www.justice.gov/epstein/files/DataSet%209.zip
   ```
 
-ym's compiled flattened PDFs (VERY SLOW)
+---
 
-* **Torrent magnet (⚠ Incomplete - 94.58 GB / 180 GB ⚠):** **[TORRENT MAGNET LINK](magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)**
+#### Compiled flattened PDFs (VERY SLOW)
+
+* **Torrent magnet (⚠ Incomplete - 94.58 GB / 180 GB ⚠):**
+  **[TORRENT MAGNET LINK](magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)**
 
   ```text
   magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
@@ -652,29 +652,35 @@ ym's compiled flattened PDFs (VERY SLOW)
 
   Only contains **94.58 GB** of **180 GB**.
 
-Note: This is a VERY early seed. This only contains a compiled and flattened folder of PDF files — NO NATIVES. Bandwith isn't great, so please be patient and report any issues.
+  > Note: This is a VERY early seed. This only contains a compiled and flattened folder of PDF files — NO NATIVES. Bandwith isn't great, so please be patient and report any issues.
 
-* **Torrent magnet (⚠ Incomplete - 49 GB / 180 GB ⚠):** **[TORRENT MAGNET LINK](magnet:?xt=urn:btih:0a3d4b84a77bd982c9c2761f40944402b94f9c64&dn=DataSet9-incomplete.zip&xl=48995762176&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)**
+---
 
-Only contains **49 GB** of **180 GB**. Multiple reports of cutoff from DOJ server at offset **48995762176**.
+#### Early Magnet
+
+* **Torrent magnet (⚠ Incomplete - 45 GB / 180 GB ⚠):**
+  **[TORRENT MAGNET LINK](magnet:?xt=urn:btih:0a3d4b84a77bd982c9c2761f40944402b94f9c64&dn=DataSet9-incomplete.zip&xl=48995762176&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)**
 
   ```text
   magnet:?xt=urn:btih:0a3d4b84a77bd982c9c2761f40944402b94f9c64&dn=DataSet9-incomplete.zip&xl=48995762176&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
   ```
 
-**SHA1**: 6ae129b76fddbba0776d4a5430e71494245b04c4
+  **SHA1**: `6ae129b76fddbba0776d4a5430e71494245b04c4`
 
 **Note:** A previously circulating "~101" GB Data Set 9 magnet has been removed from this index.
 Multiple users report malformed metadata causing torrent clients to stall or crash.
 
-/u/susadmin’s More Complete Data Set 9 (89.54 GB)
+---
 
-* **Torrent magnet (⚠ De-duplicated merger of (45.63 GB + 86.74 GB) versions ⚠):** **[TORRENT MAGNET](magnet:?xt=urn:btih:7ac8f771678d19c75a26ea6c14e7d4c003fbf9b6&dn=dataset9-more-complete.tar.zst&xl=96148724837&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.myporn.club%3A9337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.srv00.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.alaskantf.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com)**
+#### /u/susadmin’s More Complete Data Set 9 (89.54 GB)
+
+* **Torrent magnet (⚠ De-duplicated merger of (45.63 GB + 86.74 GB) versions ⚠):**
+  **[TORRENT MAGNET](magnet:?xt=urn:btih:7ac8f771678d19c75a26ea6c14e7d4c003fbf9b6&dn=dataset9-more-complete.tar.zst&xl=96148724837&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.myporn.club%3A9337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.srv00.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.alaskantf.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com)**
 
   ```text
   magnet:?xt=urn:btih:7ac8f771678d19c75a26ea6c14e7d4c003fbf9b6&dn=dataset9-more-complete.tar.zst&xl=96148724837&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.myporn.club%3A9337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.srv00.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.alaskantf.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce
   ```
-
+  
 ---
 
 ### <a id="data-set-10"></a>Data Set 10
