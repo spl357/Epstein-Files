@@ -1,4 +1,4 @@
-# <a id="epstein-files-jan-31-2026"></a>Epstein Files Feb 8, 2026
+# <a id="epstein-files-feb-02-2026"></a>Epstein Files Feb 8, 2026
 
 ## <a id="dataset-status-dashboard"></a>Dataset Status Dashboard
 
@@ -17,7 +17,7 @@ Quick availability overview of all currently indexed datasets:
 ![Data%20Set%206](https://img.shields.io/badge/Data%20Set%206-51.2%20MB%20%7C%20Available-brightgreen?style=for-the-badge)
 ![Data%20Set%207](https://img.shields.io/badge/Data%20Set%207-96.9%20MB%20%7C%20Available-brightgreen?style=for-the-badge)
 ![Data%20Set%208](https://img.shields.io/badge/Data%20Set%208-10.67%20GB%20%7C%20Available-brightgreen?style=for-the-badge)
-![Data%20Set%209](https://img.shields.io/badge/Data%20Set%209-94.58%20GB%20%7C%20~99.89%25%20Reconstructed-orange?style=for-the-badge)
+![Data%20Set%209](https://img.shields.io/badge/Data%20Set%209-143%20GB%20%7C%20~99.89%25%20Reconstructed-orange?style=for-the-badge)
 ![Data%20Set%2010](https://img.shields.io/badge/Data%20Set%2010-78.6%20GB%20%7C%20Available-brightgreen?style=for-the-badge)
 ![Data%20Set%2011](https://img.shields.io/badge/Data%20Set%2011-25.5%20GB%20%7C%20Available-brightgreen?style=for-the-badge)
 ![Data%20Set%2012](https://img.shields.io/badge/Data%20Set%2012-114%20MB%20%7C%20Available-brightgreen?style=for-the-badge)
@@ -322,44 +322,77 @@ Compare output to the hash listed in this repo.
 ---
 
 ## <a id="notes-on-data-set-9"></a>Notes on Data Set 9
+Below is a **drop-in replacement** for your section that:
 
-⚠ **Data Set 9 has historically been incomplete / unstable via DOJ direct download** (many reports of cutoff around ~49 GB / 180 GB).
+* keeps the **existing structure, anchors, and headings intact**
+* incorporates the **new NATIVEs recovery findings**
+* reflects the **likely Source A promotion** *without* prematurely asserting it
+* updates counts to the **2327 / 2542 (~91.6%)** figure
+* preserves your conservative, archival tone
+
+You can paste this over the existing section as-is.
+
+---
+
+## <a id="notes-on-data-set-9"></a>Notes on Data Set 9
+
+⚠ **Data Set 9 has historically been incomplete / unstable via DOJ direct download**
+(many reports of cutoff around ~49 GB / ~180 GB, intermittent HTTP errors, and paginator failures).
 
 ### Reconstruction Status (Current)
 
-Data Set 9 reconstruction efforts are **ongoing**, but the methodology has changed.
+Data Set 9 reconstruction efforts are **ongoing**, but the methodology and data
+availability have evolved.
 
 Earlier reconstruction work consolidated multiple partial community archives.
 That process is no longer actively documented here, as the current focus is on:
 
-- Recovering remaining files **directly from DOJ endpoints**
-- Verifying expected file counts against official `.DAT` / `.OPT` manifests
-- Enumerating missing or placeholder NATIVEs
+* Verifying **more complete community archives** that include both PDFs and NATIVEs
+* Recovering remaining files **directly from DOJ endpoints**
+* Reconciling expected file counts against official `.DAT` / `.OPT` manifests
+* Enumerating missing, placeholder, or structurally unavailable NATIVEs
 
-The most complete publicly available compilation is provided in this repository.
+The larger community archive promoted by **u/FuckThisSite** (~140+ GB) is currently
+**under active verification**. Preliminary analysis and community reports indicate
+that it contains **both PDFs and NATIVEs**, making it more complete than the
+flattened PDF-only compilation previously listed as Source A.
+
+Once verification is complete, source ordering will be updated accordingly based on
+**completeness, integrity, and availability** (including seed count and bandwidth).
+
 Historical reconstruction methods, intermediate sources, and prior magnets remain
-preserved in the Git commit history and issue discussions for transparency.
+preserved in Git commit history and issue discussions for transparency.
 
-**Update:** As of early Feb 2026, community reconciliation using the dataset metadata files (`.DAT` / `.OPT`) indicates Data Set 9 is now **~99.9% reconstructable** from currently circulating sources.
+**Update:** As of early Feb 2026, reconciliation using official dataset metadata
+files (`.DAT` / `.OPT`) indicates Data Set 9 is now **~99.9% reconstructable** from
+currently circulating and recoverable sources.
+
+---
 
 ### What “~99.9%” means (high-level)
 
 * The dataset appears to contain **~531,307** expected `IMAGES` entries (PDFs) based on `.DAT` manifests.
 * Current merged sources yield **~531,282** PDF files.
 * That implies **~25 PDFs** remain missing.
-* In addition, Data Set 9 includes an estimated **~2,542 expected `NATIVES` (media files)**.
-* Of those, **~1,983 NATIVES** have been confirmed as **directly recoverable from DOJ sources**.
-* The remaining native/media entries appear as **small placeholder files** or lack publicly accessible DOJ endpoints.
+* In addition, Data Set 9 includes an estimated **~2,542 expected `NATIVEs` (media files)**.
+* Of those, **~2,327 NATIVEs** have been successfully recovered via direct DOJ access using
+  expanded extension enumeration and HEAD-before-GET validation.
+* The remaining native/media entries fall into two categories:
+
+  * URLs returning `200` on `HEAD` but `404` on `GET` (“disappeared”)
+  * Bates numbers with no resolvable public file extension or endpoint
 
 Taken together, this places Data Set 9 at approximately **~99.9% complete by file count**,
 where completeness reflects **PDFs + recoverable native/media files**, not byte-for-byte parity.
 
 > **Important:** This repository does **not** claim Data Set 9 is fully complete or canonical.
-> It documents the best-known public reconstruction status based on community analysis at the time of writing.
+> It documents the best-known public reconstruction status based on verifiable community analysis
+> at the time of writing.
 
 **Additional notes:**
 
-* Multiple users report DOJ download failures, HTTP 404s, paginator errors, and IP-based blocking when attempting to retrieve Data Set 9.
+* Multiple users report DOJ download failures, HTTP 404s, paginator errors, and IP-based blocking
+  when attempting to retrieve Data Set 9.
 * These issues appear to affect multiple regions and are not user-specific.
 
 ---
@@ -373,27 +406,39 @@ Two distinct placeholder sizes have been observed:
 * **4670 bytes**
 * **2433 bytes**
 
-This behavior was identified by comparing placeholder files in **Data Set 10** to their NATIVEs.
+This behavior was identified by comparing placeholder files in **Data Set 10** to
+their corresponding NATIVEs.
 
 #### Revised Estimates
 
-Based on this analysis, the estimated number of missing NATIVEs has been updated:
+Based on expanded enumeration and recovery attempts:
 
-* **Previous estimate:** ~135 files
-* **Revised estimate:** **~2542 files**
+* **Previous estimate:** ~1,983 recoverable NATIVEs
+* **Current confirmed recovery:** **2,327 / 2,542 NATIVEs (~91.6%)**
 
-In addition, **25 image files** remain missing and may overlap with native placeholder entries.
+In addition, **~25 IMAGE (.pdf) files** remain missing.
 
 #### Recovery Progress
 
-As of the latest update:
+As of the latest update (20260209 @ 0140z):
 
-* **1983 / 2542 NATIVEs** have been confirmed as **directly downloadable from the DOJ**
-* Remaining NATIVEs are still under active investigation
+* **2,327 / 2,542 NATIVEs** have been successfully downloaded from DOJ endpoints
+* Remaining NATIVEs are either:
+
+  * structurally unavailable (HEAD 200 / GET 404), or
+  * unresolved due to missing or ambiguous extensions
+
+Additional observations from recovery efforts:
+
+* All recovered Microsoft Office files (`.doc(x)`, `.xls(x)`, `.ppt(x)`) are **0 bytes**
+  (likely upstream placeholders or redactions)
+* Two SQLite `.db` files are password-protected
+* Some `.avi` files appear to be **sequential frame data** requiring recombination
+* A significant amount of **jail footage** is present among recovered NATIVEs
 
 #### Observed Native Extensions
 
-(Non-exhaustive; sourced from Data Set 10)
+(Non-exhaustive; sourced primarily from Data Set 10 analysis)
 
 ```text
 .3gp
@@ -422,16 +467,14 @@ Additional extensions attempted during recovery efforts include:
 .doc
 ```
 
-#### Reference & Analysis Files (Data Set 9)
+---
+
+### Reference & Analysis Files (Data Set 9)
 
 The following files are provided for **transparency, reconstruction, and community verification**.
 All files live under: [`/notes/DS09/`](notes/DS09/)
 
-
-
 ##### Missing / Incomplete Content
-
-These files document content believed to be missing or incomplete relative to expected DS9 manifests.
 
 * **Missing NATIVEs list:**
   [`NEW_MISSING_EFTA_NATIVES.txt`](notes/DS09/NEW_MISSING_EFTA_NATIVES.txt)
@@ -439,14 +482,10 @@ These files document content believed to be missing or incomplete relative to ex
 * **Missing images list:**
   [`MISSING_EFTA_IMAGES.txt`](notes/DS09/MISSING_EFTA_IMAGES.txt)
 
-* **Confirmed downloadable NATIVEs (1983 URLs):**
-  [`1983_NATIVES_URLS.txt`](notes/DS09/1983_NATIVES_URLS.txt)
-
+* **Confirmed downloadable NATIVEs (2327 URLs):**
+  [`2327_NATIVES_URLS.txt`](notes/DS09/2327_NATIVES_URLS.txt)
 
 ##### Duplicate Detection Results (De-duplication Performed)
-
-These files document duplicate detection runs.
-**One copy of each duplicate was removed** during cleanup.
 
 * **Compact JSON:**
   [`results_duplicates_compact.json`](notes/DS09/results_duplicates_compact.json)
@@ -457,11 +496,7 @@ These files document duplicate detection runs.
 * **Plain text report:**
   [`results_duplicates.txt`](notes/DS09/results_duplicates.txt)
 
-
 ##### Broken File Checks (No Action Taken)
-
-These files document files that failed validation checks.
-**No deletions or modifications were performed** based on these results.
 
 * **Compact JSON:**
   [`results_broken_files_compact.json`](notes/DS09/results_broken_files_compact.json)
@@ -472,11 +507,7 @@ These files document files that failed validation checks.
 * **Plain text report:**
   [`results_broken_files.txt`](notes/DS09/results_broken_files.txt)
 
-
 ##### Invalid / Unexpected File Extensions (No Action Taken)
-
-These files document files with extensions inconsistent with expected DS9 content types.
-**No action was taken**; results are provided for review only.
 
 * **Compact JSON:**
   [`results_bad_extensions_compact.json`](notes/DS09/results_bad_extensions_compact.json)
@@ -490,27 +521,43 @@ These files document files with extensions inconsistent with expected DS9 conten
 
 ##### Additional Analysis
 
-* **Non-PDF files present in Data Set 9:**
+* **Non-PDF files present in Data Set 9**
   [`Non-PDF in Epstein Files - Data Set 9.csv`](notes/DS09/Non-PDF%20in%20Epstein%20Files%20-%20Data%20Set%209.csv)
 
-* **Corrupt media analysis (informational):**
+* **Corrupt media analysis (informational)**
   [`corrupt.txt`](notes/DS09/corrupt.txt)
 
-  > Contains extracted metadata / partial information from a corrupt video file.
+  > Contains extracted metadata and partial information from a corrupt video file.
   > Included for transparency; file integrity could not be recovered.
+
+* **Unresolved Bates numbers**
+  [`not-found-cache-epstein.txt`](notes/DS09/not-found-cache-epstein.txt)
+
+  > Bates numbers for which no resolvable file extension or accessible resource
+  > could be identified during recovery attempts.
+
+* **Disappearing DOJ endpoints**
+  [`disappeared.csv`](notes/DS09/disappeared.csv)
+
+  > Entries that returned valid metadata (`200 OK`) in an HTTP `HEAD` request
+  > (including `Content-Type` and `Content-Length`), but returned `404 Not Found`
+  > when a `GET` request was attempted.
+
 
 ---
 
 #### Status
 
-Efforts are ongoing to enumerate, test, and recover remaining NATIVEs from the DOJ source.
-Updates will be reflected in these reference files and the associated GitHub issue as progress continues.
+Efforts are ongoing to enumerate, test, verify, and recover remaining NATIVEs from
+public DOJ endpoints and community-provided archives.
+
+Updates will be reflected in these reference files and the associated tracking issue:
 
 * Issue: [https://github.com/yung-megafone/Epstein-Files/issues/4](https://github.com/yung-megafone/Epstein-Files/issues/4)
 
-  ```text
-  https://github.com/yung-megafone/Epstein-Files/issues/4
-  ```
+```text
+https://github.com/yung-megafone/Epstein-Files/issues/4
+```
 
 ---
 
@@ -623,13 +670,14 @@ Source repository: https://github.com/yung-megafone/Epstein-Files
 
 ---
 
-### <a id="data-sets-1-8-internet-archive"></a>Data Sets 1–8 (Internet Archive)
+### <a id="data-sets-internet-archive"></a>Data Sets (Internet Archive)
 
-**Epstein Files Data Sets 1-8: [LINK](https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILES.pdf)**
+**Epstein Files Data Sets 1-8, 10-12: [LINK](https://archive.org/download/Epstein-Data-Sets-So-Far)**
 
 ```text
-https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILES.pdf
+https://archive.org/download/Epstein-Data-Sets-So-Far
 ```
+
 
 ---
 
@@ -667,7 +715,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** 598f4d2d71f0d183cf898cd9d6fb8ec1f6161e0e71d8c37897936aef75f860b4
+**SHA256:** 598F4D2D71F0D183CF898CD9D6FB8EC1F6161E0E71D8C37897936AEF75F860B4
 
 #### Notes
 
@@ -703,7 +751,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** 24cebbaefe9d49bca57726b5a4b531ff20e6a97c370ba87a7593dd8dbdb77bff
+**SHA256:** 24CEBBAEFE9D49BCA57726B5A4B531FF20E6A97C370BA87A7593DD8DBDB77BFF
 
 #### Notes
 
@@ -739,11 +787,11 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** 1c5587152328bd45a68baefeb5fba1d55677be4ff0b381d721f37c7b3da9055e
+**SHA256:** 160231C8C689C76003976B609E55689530FC4832A1535CE13BFCD8F871C21E65
 
 #### Notes
 
-*(optional)*
+*Prior hash was incorrect. Updated hash is verified against current DOJ content **and** the internet archive mirror*
 
 ---
 
@@ -775,7 +823,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** 979154842bac356ef36bb2d0e72f78e0f6b771d79e02dd6934cff699944e2b71
+**SHA256:** 979154842BAC356EF36BB2D0E72F78E0F6B771D79E02DD6934CFF699944E2B71
 
 #### Notes
 
@@ -811,7 +859,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** 7317e2ad089c82a59378a9c038e964feab246be62ecc24663b741617af3da709
+**SHA256:** 7317E2AD089C82A59378A9C038E964FEAB246BE62ECC24663B741617AF3DA709
 
 #### Notes
 
@@ -847,7 +895,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** d54d26d94127b9a277cf3f7d9eeaf9a7271f118757997edac3bc6e1039ed6555
+**SHA256:** D54D26D94127B9A277CF3F7D9EEAF9A7271F118757997EDAC3BC6E1039ED6555
 
 #### Notes
 
@@ -883,7 +931,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Hashes
 
-**SHA256:** 51e1961b3bcf18a21afd9bcf697fdb54dac97d1b64cf88297f4c5be268d26b8e
+**SHA256:** 51E1961B3BCF18A21AFD9BCF697FDB54DAC97D1B64CF88297F4C5BE268D26B8E
 
 #### Notes
 
@@ -939,23 +987,7 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
 
 #### Sources (Pick One or Combine)
 
-##### Source A — ym's compiled flattened PDFs (VERY SLOW) (94.58 GB / 180 GB)
-
-* **Torrent Magnet:**
-  **[LINK](magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)**
-
-  ```text
-  magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
-  ```
-
-* **SHA256:** See [checksums-incomplete.txt]() *(pending upload 20260208 @ 0707z)*
-
-* **Notes:**
-
-  * PDFs only (flattened). **No NATIVEs.**
-  * Early seed; bandwidth limited — please be patient and report issues.
-
-##### Source B — u/FuckThisSite3's _MORE Complete_ DataSet 9 (143 GB / 180 GB)
+##### Source A — u/FuckThisSite3's _MORE Complete_ DataSet 9 (143 GB / 180 GB)
 
 * **Torrent Magnet:**
   **[LINK](magnet:?xt=urn:btih:5b50564ee995a54009fec387c97f9465eb18ba00&dn=dataset-9_by_fuckthissite3.tar&xl=148072017920)**
@@ -964,14 +996,32 @@ https://archive.org/details/combined-all-epstein-files/COMBINED_ALL_EPSTEIN_FILE
   magnet:?xt=urn:btih:5b50564ee995a54009fec387c97f9465eb18ba00&dn=dataset-9_by_fuckthissite3.tar&xl=148072017920
   ```
 
-* **SHA256:** pending verification
+* **SHA256:** 5ADC043BCF94304024D718E57267C1AA009D782835F6ADBE6AD7FDBB763F15C5 _(ym) pending verification_
 
-* **Notes:** *(optional)*
+* **Notes:** *Contains ~2,308 NATIVES, ~252,169 PDFs
+
+##### Source B — ym's compiled flattened PDFs (VERY SLOW) (94.58 GB / 180 GB)
+
+* **Torrent Magnet:**
+  **[LINK](magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)**
+
+  ```text
+  magnet:?xt=urn:btih:286060d26392042a5e2b5354d09ec7c7c5cee7dc&dn=dataset-09%20%28Incomplete%29&xl=101565025420&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+  ```
+
+* **SHA256:** See [checksums-incomplete.txt.zip]() *(pending upload 20260208 @ 0707z)*
+
+* **Notes:**
+
+  * 531,282 PDFs (flattened). **No NATIVEs.**
+  * VOL00009.DAT, VOL00009.OPT
+  * Early seed; bandwidth limited — please be patient and report issues.
 
 
 #### Notes
 
-See: [Notes on Data Set 9](#notes-on-data-set-9)
+See: [Notes on Data Set 9](#notes-on-data-set-9),
+<!--  [History](/notes/DS09/README.md) -->
 
 ---
 
@@ -1010,7 +1060,7 @@ See: [Notes on Data Set 9](#notes-on-data-set-9)
 
 #### Hashes
 
-**SHA256:** 7d6935b1c63ff2f6bcabdd024ebc2a770f90c43b0d57b646fa7cbd4c0abcf846
+**SHA256:** 7D6935B1C63FF2F6BCABDD024EBC2A770F90C43B0D57B646FA7CBD4C0ABCF846
 
 **MD5:** b8a72424ae812fd21d225195812b2502
 
@@ -1045,6 +1095,8 @@ See: [Notes on Data Set 9](#notes-on-data-set-9)
 #### Hashes
 
 **SHA1:** 574950c0f86765e897268834ac6ef38b370cad2a
+
+**SHA256:** 9714273B9E325F0A1F406063C795DB32F5DA2095B75E602D4C4FBABA5DE3ED80
 
 #### Notes
 
@@ -1084,7 +1136,7 @@ See: [Notes on Data Set 9](#notes-on-data-set-9)
 
 **MD5:** b1206186332bb1af021e86d68468f9fe
 
-**SHA256:** b5314b7efca98e25d8b35e4b7fac3ebb3ca2e6cfd0937aa2300ca8b71543bbe2
+**SHA256:** B5314B7EFCA98E25D8B35E4B7FAC3EBB3CA2E6CFD0937AA2300CA8B71543BBE2
 
 #### Notes
 
