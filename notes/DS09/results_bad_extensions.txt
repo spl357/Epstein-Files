@@ -1,0 +1,9 @@
+Results of searching ["Q:\\2"] with excluded directories [] and excluded items ["*\\.git\\*", "*\\node_modules\\*", "*\\lost+found\\*", "*:\\windows\\*", "*:\\$RECYCLE.BIN\\*", "*:\\$SysReset\\*", "*:\\System Volume Information\\*", "*:\\OneDriveTemp\\*", "*:\\hiberfil.sys", "*:\\pagefile.sys", "*:\\swapfile.sys"]
+Found 6 files with invalid extension.
+
+"Q:\2\EFTA00064598.mp4" ----- (html) - htm,html,hxt,shtml
+"Q:\2\EFTA00279886.avi" ----- (aac) - aac,adts
+"Q:\2\EFTA00543065.avi" ----- (mov) - mov,mqv,qt
+"Q:\2\EFTA00553300.avi" ----- (mov) - mov,mqv,qt
+"Q:\2\EFTA00555345.m4a" ----- (mp3) - m2a,m3a,mp2,mp2a,mp3,mpga
+"Q:\2\EFTA01132307.avi" ----- (mov) - mov,mqv,qt

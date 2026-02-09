@@ -1,0 +1,6 @@
+Results of searching ["Q:\\2"] with excluded directories [] and excluded items ["*\\.git\\*", "*\\node_modules\\*", "*\\lost+found\\*", "*:\\windows\\*", "*:\\$RECYCLE.BIN\\*", "*:\\$SysReset\\*", "*:\\System Volume Information\\*", "*:\\OneDriveTemp\\*", "*:\\hiberfil.sys", "*:\\pagefile.sys", "*:\\swapfile.sys"]
+Found 4 broken files.
+"Q:\2\EFTA00164286.wav" - unsupported feature: probe info not available/file not recognized
+"Q:\2\EFTA00164287.wav" - unsupported feature: probe info not available/file not recognized
+"Q:\2\EFTA00164288.wav" - unsupported feature: probe info not available/file not recognized
+"Q:\2\EFTA00221057.wav" - unsupported feature: probe info not available/file not recognized

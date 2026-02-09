@@ -1,0 +1,59 @@
+Results of searching ["Q:\\2"] (reference directories []) with excluded directories [] and excluded items ["*\\.git\\*", "*\\node_modules\\*", "*\\lost+found\\*", "*:\\windows\\*", "*:\\$RECYCLE.BIN\\*", "*:\\$SysReset\\*", "*:\\System Volume Information\\*", "*:\\OneDriveTemp\\*", "*:\\hiberfil.sys", "*:\\pagefile.sys", "*:\\swapfile.sys"]
+-------------------------------------------------Files with same hashes-------------------------------------------------
+Found 14 duplicated files which in 14 groups which takes 282.49 MiB.
+
+---- Size 23.57 MiB (24715647) - 2 files
+"Q:\2\EFTA00064609.mp4"
+"Q:\2\EFTA00108930.mp4"
+
+---- Size 23.39 MiB (24523204) - 2 files
+"Q:\2\EFTA00064610.mp4"
+"Q:\2\EFTA00108931.mp4"
+
+---- Size 23.06 MiB (24180887) - 2 files
+"Q:\2\EFTA00064611.mp4"
+"Q:\2\EFTA00108932.mp4"
+
+---- Size 22.13 MiB (23204992) - 2 files
+"Q:\2\EFTA00064601.mp4"
+"Q:\2\EFTA00108922.mp4"
+
+---- Size 22.05 MiB (23119346) - 2 files
+"Q:\2\EFTA00064607.mp4"
+"Q:\2\EFTA00108928.mp4"
+
+---- Size 21.96 MiB (23029305) - 2 files
+"Q:\2\EFTA00064600.mp4"
+"Q:\2\EFTA00108921.mp4"
+
+---- Size 21.39 MiB (22427626) - 2 files
+"Q:\2\EFTA00064604.mp4"
+"Q:\2\EFTA00108925.mp4"
+
+---- Size 21.28 MiB (22308810) - 2 files
+"Q:\2\EFTA00064608.mp4"
+"Q:\2\EFTA00108929.mp4"
+
+---- Size 21.09 MiB (22118971) - 2 files
+"Q:\2\EFTA00064599.mp4"
+"Q:\2\EFTA00108920.mp4"
+
+---- Size 21.08 MiB (22101213) - 2 files
+"Q:\2\EFTA00064606.mp4"
+"Q:\2\EFTA00108927.mp4"
+
+---- Size 20.59 MiB (21585118) - 2 files
+"Q:\2\EFTA00064602.mp4"
+"Q:\2\EFTA00108923.mp4"
+
+---- Size 20.12 MiB (21093374) - 2 files
+"Q:\2\EFTA00064605.mp4"
+"Q:\2\EFTA00108926.mp4"
+
+---- Size 19.82 MiB (20784115) - 2 files
+"Q:\2\EFTA00064603.mp4"
+"Q:\2\EFTA00108924.mp4"
+
+---- Size 991.21 KiB (1015001) - 2 files
+"Q:\2\EFTA00155488.m4a"
+"Q:\2\EFTA00159164.m4a"

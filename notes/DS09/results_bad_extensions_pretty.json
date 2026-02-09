@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Q:\\2\\EFTA00064598.mp4",
+    "modified_date": 1769750259,
+    "size": 22938008,
+    "current_extension": "mp4",
+    "proper_extensions_group": "(html) - htm,html,hxt,shtml",
+    "proper_extension": "html"
+  },
+  {
+    "path": "Q:\\2\\EFTA00279886.avi",
+    "modified_date": 1769750721,
+    "size": 14336,
+    "current_extension": "avi",
+    "proper_extensions_group": "(aac) - aac,adts",
+    "proper_extension": "aac"
+  },
+  {
+    "path": "Q:\\2\\EFTA00543065.avi",
+    "modified_date": 1769751585,
+    "size": 1578332,
+    "current_extension": "avi",
+    "proper_extensions_group": "(mov) - mov,mqv,qt",
+    "proper_extension": "mov"
+  },
+  {
+    "path": "Q:\\2\\EFTA00553300.avi",
+    "modified_date": 1769751623,
+    "size": 12624360,
+    "current_extension": "avi",
+    "proper_extensions_group": "(mov) - mov,mqv,qt",
+    "proper_extension": "mov"
+  },
+  {
+    "path": "Q:\\2\\EFTA00555345.m4a",
+    "modified_date": 1769751632,
+    "size": 3228338,
+    "current_extension": "m4a",
+    "proper_extensions_group": "(mp3) - m2a,m3a,mp2,mp2a,mp3,mpga",
+    "proper_extension": "mp3"
+  },
+  {
+    "path": "Q:\\2\\EFTA01132307.avi",
+    "modified_date": 1769753524,
+    "size": 4123929,
+    "current_extension": "avi",
+    "proper_extensions_group": "(mov) - mov,mqv,qt",
+    "proper_extension": "mov"
+  }
+]
